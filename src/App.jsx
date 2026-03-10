@@ -136,7 +136,7 @@ const content = {
       </Callout>
 
       <H3>Case 2 Expanded</H3>
-      <P>If <Math>f(n) = Θ(n^{log_b a} · log^k n)</Math>, then <Math>T(n) = Θ(n^{log_b a} · log^{k+1} n)</Math>.</P>
+      <P>If <Math>f(n) = Θ(n^{'{'}log_b a{'}'} · log^k n)</Math>, then <Math>T(n) = Θ(n^{'{'}log_b a{'}'} · log^{'{'}k+1{'}'})</Math>.</P>
     </div>
   ),
 
@@ -149,8 +149,8 @@ const content = {
       <Table
         headers={["Algorithm", "Subproblems (a)", "Standard", "Complexity"]}
         rows={[
-          ["Karatsuba", "3", "4", "O(n^{log₂3}) ≈ O(n^{1.58})"],
-          ["Strassen", "7", "8", "O(n^{log₂7}) ≈ O(n^{2.81})"],
+          ["Karatsuba", "3", "4", "O(n^{'{'}log₂3{'}'}) ≈ O(n^{'{'}1.58{'}'})"],
+          ["Strassen", "7", "8", "O(n^{'{'}log₂7{'}'}) ≈ O(n^{'{'}2.81{'}'})"],
         ]}
       />
       <Callout color="#6366f1">
@@ -164,7 +164,7 @@ const content = {
       <H2>🌊 FFT & Roots of Unity</H2>
       <P>The FFT is the ultimate Divide & Conquer application, moving from Coefficient Form to Point-Value Form.</P>
       <H3>Why Roots of Unity?</H3>
-      <P>They provide the <strong>Symmetry Property</strong> (<Math>ω_n^{k + n/2} = -ω_n^k</Math>) and the <strong>Halving Property</strong>.</P>
+      <P>They provide the <strong>Symmetry Property</strong> (<Math>ω_n^{'{'}k + n/2{'}'} = -ω_n^k</Math>) and the <strong>Halving Property</strong>.</P>
       <Block>
         <P>1. <strong>Divide:</strong> Split by even/odd indices.<br/>
         2. <strong>Recurse:</strong> Evaluate at <Math>n/2</Math> points.<br/>
