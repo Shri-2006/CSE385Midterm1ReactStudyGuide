@@ -743,7 +743,7 @@ Then: A(x) = A_even(x²) + x · A_odd(x²)`}</Code>
   ),
 };
 
-export default function AlgorithmsGuide() {
+export default function App() {
   const [active, setActive] = useState("asymptotic");
 
   return (
