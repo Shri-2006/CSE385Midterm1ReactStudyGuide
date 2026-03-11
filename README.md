@@ -18,3 +18,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 Note from Shri: I vibe coded the original through claude, then had gemini look at it. Running on netifly as of this moment in https://aesthetic-melomakarona-9c5b9d.netlify.app/
+
+If main site goes down this is backup:
+https://cse-385-midterm1-react-study-guide.vercel.app/
